@@ -1,0 +1,189 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    color: white;
+    margin-left: 45px;
+    font-weight: 650;       
+    font-size: 24px;
+}
+.header{
+    display: flex;
+    background:#1F2937 ;
+    padding:25px ;
+    justify-content: space-between;
+    gap: 25px;
+}
+.links{
+    display: flex;
+    gap: 25px;
+    margin-right: 35px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.firstpart{
+    display: flex;
+    background:#1F2937;
+    justify-content: center;
+    gap: 150px;
+    padding: 100px;
+}
+.leftpart{
+
+    color:white;
+    width: 400px;
+    font-size: 20px;
+}
+.button1{
+    background: #3382F6;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    box-shadow: #3382F6;
+    color: white;
+    height: 35px;
+    width: 110px;
+    margin-top: 10px;
+}
+#title{
+    font-weight: 900;
+    font-size: 36px;
+    color: white;
+}
+.rightpart{
+    background:#E5E7EB ;
+    width: 500px;
+    height: 200px;
+    color: rgb(87, 87, 87);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    display: flex;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 50px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.box1 , .box2 , .box3 , .box4{
+    background: white;
+    border-radius: 15%;
+    padding: 10px;
+    border : solid #3382F6 ;
+    width: 150px;
+    height: 150px;
+}
+
+.texts{
+    display: flex;
+    color:#1F2937;  
+    text-align: center;  
+    text-wrap: 1;
+    gap:80px;
+    margin-top: 10px;
+    justify-content: center;
+    padding-bottom: 100px;
+
+    
+
+}
+.unu , .doi , .trei , .patru{
+    width: 150px;
+}
+.bottompart{
+    background: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quotes{
+    font-size: 36px;
+    color: #1F2937;
+    width: 750px;
+}
+.author{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: flex-end;
+    color: #1F2937;
+    font-weight: bolder;
+    width: 700px;   
+}
+.lastpart{
+    background: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    background: #3382F6;
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+}
+.insidethebox{
+    display: flex;
+    flex-direction: column;
+
+}
+#titlu{
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    padding-top: 50px;
+}
+.urmatoru{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+.stanga{
+    display: flex;
+    flex-direction: row;
+}
+.dreapta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.butonul2{
+    
+    background: #3382F6;
+    border-radius: 10px;
+    border: solid white;
+    outline: none;
+    border-width: 2px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    height: 35px;
+    width: 110px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background: #1F2937;
+    color: white;   
+    padding: 70px;
+}
